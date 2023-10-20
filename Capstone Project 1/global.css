@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  
+  --font-sf-pro-display: "SF Pro Display";
+  --font-inherit: inherit;
+
+ 
+  --font-size-base: 16px;
+  --font-size-sm: 14px;
+  --font-size-mini: 15px;
+  --font-size-smi: 13px;
+  --font-size-xl: 20px;
+  --font-size-lg: 18px;
+  --font-size-5xl: 24px;
+  --font-size-109xl: 128px;
+  --font-size-9xl: 28px;
+  --font-size-13xl: 32px;
+
+  /* Colors */
+  --color-white: #fff;
+  --blue-1: #2f80ed;
+  --gray-1: #333;
+  --color-whitesmoke-100: #f4f4f4;
+  --gray-6: #f2f2f2;
+  --color-whitesmoke-200: #ebebeb;
+  --color-whitesmoke-300: #eaeaea;
+  --gray-4: #bdbdbd;
+  --gray-3: #828282;
+  --color-gray-100: #1b1f2d;
+  --color-gray-200: #1a1a1a;
+  --color-gray-300: #181818;
+  --color-gray-400: rgba(255, 255, 255, 0);
+  --gray-2: #4f4f4f;
+  --green-1: #219653;
+  --red: #eb5757;
+  --gray-5: #e0e0e0;
+  --color-black: #000;
+  --color-darkslateblue: #475993;
+
+  --gap-3xs: 10px;
+  --gap-7xs: 6px;
+  --gap-9xs: 4px;
+  --gap-29xl: 48px;
+  --gap-5xs: 8px;
+  --gap-sm: 14px;
+  --gap-xs: 12px;
+  --gap-11xl: 30px;
+
+  --padding-5xs: 8px;
+  --padding-xs: 12px;
+  --padding-3xs: 10px;
+  --padding-lg: 18px;
+  --padding-9xs: 4px;
+  --padding-2xs: 11px;
+  --padding-sm: 14px;
+  --padding-10xs: 3px;
+  --padding-base: 16px;
+
+  --br-5xs: 8px;
+  --br-7xs: 6px;
+  --br-9xs: 4px;
+  --br-8xs: 5px;
+  --br-3xs: 10px;
+}
