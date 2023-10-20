@@ -1,0 +1,160 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.email {
+    padding-top: 50px;
+}
+
+.mail1 {
+    padding-bottom: 10px;
+}
+
+.mail {
+    width: 85%;
+    height: 20px;
+    background-color: white;
+    border: none;
+}
+
+.pass {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.pass1 {
+    width: 85%;
+    height: 20px;
+    background-color: white;
+    border: none;
+    z-index: 1;
+}
+
+.sign {
+    font-size: 30px;
+    font-weight: 550;
+    text-align: center;
+}
+
+.form-control form-control-lg {
+    text-decoration: none;
+}
+
+.material-symbols-outlined {
+    position: absolute;
+    margin-top: -35px;
+    margin-left: -29px;
+    margin-top: -1px;
+}
+
+.forgot {
+    text-decoration: none;
+    color: rgba(0, 128, 255, 0.829);
+    padding-left: 18%;
+    font-weight: 50;
+}
+
+.vh-100 {
+    color: black;
+    z-index: 2;
+    margin: auto;
+    width: 400px;
+    padding-top: 150px;
+    height: max-content;
+    padding-bottom: 0px;
+}
+
+
+
+* {
+    background-color: white;
+}
+
+.signin {
+    margin-top: 32px;
+    padding: 10px 50px;
+    width: 86%;
+    background-color: rgba(0, 128, 255, 0.829);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+}
+
+.option {
+    justify-content: center;
+}
+
+body {
+    background-color: white;
+}
+.visi{
+    border-radius: 50%;
+}
+
+
+.divider{    
+margin-left: 77px;}
+.social1 {
+    margin-top: 0px;
+    padding-left: 100px;
+    padding-bottom: 17px;
+}
+
+.social {
+    margin-top: 10px;
+    padding: 10px 75px;
+    background-color:rgb(6, 104, 225);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    width: 49%;
+}
+
+.footer {
+    padding-top: 45px;
+    margin-left: 65px;
+}
+
+.keep {
+    margin-top: 32px;
+}
+
+
+.page {
+    width: 100%;
+    height: 845px;
+    background-color: white;
+}
+
+.keepme {
+    color: rgb(82, 81, 81);
+}
+.strt {
+    position: absolute;
+    margin-left: 58px;
+    color: grey;
+    margin-top: 15px;
+}
+
+.pln {
+    color: cyan;
+}
+.material-symbols-outlined {
+    position: absolute;
+    margin-top: -2px;
+    border: none;
+}
+
+.lnk {
+    color: rgba(0, 128, 255, 0.645);
+    text-decoration: none;
+}
+
+.google{
+   position: absolute;
+   margin-top:-6px;
+height: 30px;
+margin-left: -30px;
+}
