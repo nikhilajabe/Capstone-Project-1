@@ -1,0 +1,327 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  text-wrap: nowrap;
+  position: absolute;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  background-color: white;
+  text-wrap: nowrap;
+}
+
+.flex-container>a {
+  text-decoration: none;
+  padding: 20px;
+  color: rgb(106, 101, 101);
+  text-wrap: nowrap;
+}
+
+.material-symbols-outlined {
+  border: 1px solid black;
+
+}
+
+.notification {
+  margin-top: 13px;
+  width: 30px;
+  position: absolute;
+}
+
+.profile {
+  position: absolute;
+  width: 30px;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+.user {
+  position: absolute;
+  right: 140px;
+}
+
+.opera {
+  width: 100%;
+  overflow: auto;
+  flex-wrap: nowrap;
+  text-wrap: nowrap;
+}
+
+.sydney {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  object-fit: none;
+}
+
+.search {
+  padding: 10px 32px;
+  text-decoration: none;
+  background-color: #0098ba;
+  color: white;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.material-symbols-outlined {
+  position: absolute;
+  margin-top: -2px;
+  border: none;
+}
+
+.a {
+  margin-left: 35px;
+}
+
+.form {
+  justify-content: center;
+  left: 230px;
+  top: 450px;
+  padding: 20px 0 20px 0;
+  background-color: white;
+  border-radius: 5px;
+  position: absolute;
+  text-wrap: nowrap;
+}
+
+::placeholder {
+  background-color: white;
+  border: none;
+  color: grey;
+}
+
+input[type="text"], input[type="password"], textarea {
+  border: none;
+  outline: none;
+  background-color: white;
+  overflow: auto;
+}
+
+.plan {
+  font-size: 12px;
+  color: grey;
+}
+
+.caution {
+  margin-top: 90px;
+  margin-left: 85px;
+  background-color: rgba(196, 196, 0, 0.146);
+  width: 87%;
+  padding: 5px 10px;
+  color: white;
+  text-wrap: stable;
+}
+
+.span1 {
+  color: grey;
+  background-color: rgba(196, 196, 0, 0.146);
+  font-size: 14px;
+}
+
+.learn {
+  text-decoration: none;
+  color: #00d0ff;
+  background-color: unset
+}
+
+.fa-triangle-exclamation {
+  color: black;
+}
+
+.enjoy {
+  margin-top: 50px;
+  margin-left: 60px;
+}
+
+.column {
+  float: left;
+  width: 23%;
+  padding: 5px;
+}
+
+.row {
+  margin-left: 4%;
+}
+
+.explore {
+  color: black;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.count {
+  color: grey;
+  font-weight: 550;
+  margin-top: 2px;
+}
+
+.prop {
+  color: grey;
+  font-size: 12px;
+  margin-top: -15px;
+}
+
+.column1 {
+  float: left;
+  width: 31%;
+  padding: 5px;
+}
+
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row1, .get {
+  margin-left: 4%;
+}
+
+.get {
+  margin-top: 30px;
+  text-wrap: nowrap;
+}
+
+.small {
+  font-size: 12px;
+  margin-top: -10px;
+}
+
+.inside {
+  color: white;
+  width: 93%;
+  justify-content: center;
+  margin: -95px auto 0 auto;
+  text-wrap: balance;
+}
+
+.column2 {
+  float: left;
+  width: 23%;
+  padding: 5px;
+  text-wrap: balance;
+}
+
+.row2 {
+  margin-left: 4%;
+  text-wrap: balance;
+}
+
+.mob {
+  height: 200px;
+  border-radius: 15px;
+  width: 95%;
+}
+
+.mobile {
+  margin-left: 55px;
+  text-wrap: balance;
+}
+
+.text {
+  position: absolute;
+  text-align: end;
+  margin: -150px 0 0 650px;
+  font-weight: 600;
+  text-wrap: nowrap;
+  width: fit-content;
+}
+
+.Download {
+  text-decoration: none;
+  color: wheat;
+  background-color: #00d0ff;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+.discover {
+  justify-content: center;
+  margin: 55px auto 0 auto;
+  width: max-content;
+}
+
+.disc {
+  justify-content: center;
+  margin: auto;
+  width: max-content;
+  color: #00d0ff;
+}
+
+.ind {
+  font-size: 22px;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+
+.cmore {
+  text-decoration: none;
+  color: #00d0ff;
+}
+
+.ico {
+  position: absolute;
+  margin: 6px 0 0 -25px;
+  color: cyan;
+}
+
+.footer {
+  height: max-content;
+  padding-top: 30px;
+  background-color: white;
+  width: auto;
+  text-wrap: nowrap;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  padding-left: 60px;
+}
+
+.list {
+  float: left;
+  list-style: none;
+  line-height: 30px;
+  text-decoration: none;
+  color: gray;
+  text-wrap: nowrap;
+  background-color: white;
+  font-size: 13px;
+}
+
+.drm {
+  margin-left: 28px;
+  text-wrap: nowrap;
+  overflow: hidden;
+}
+
+.strt {
+  position: absolute;
+  margin-left: 58px;
+  color: grey;
+  margin-top: 15px;
+  text-wrap: nowrap;
+}
+
+.pln {
+  color: cyan;
+  text-wrap: nowrap;
+}
+
+@media screen and (max-width:800px) {
+  .flex-container {
+    width: 100%;
+    padding-top: 20px;
+
+  }
+}
