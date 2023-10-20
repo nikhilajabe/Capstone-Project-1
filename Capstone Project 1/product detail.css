@@ -1,0 +1,482 @@
+@media screen and (max-width:800px) {
+    .flex-container {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .user {
+        margin: -25px;
+    }
+
+    * {
+        width: 499px;
+        background-color: white;
+    }
+
+
+    .footer {
+        height: max-content;
+        padding-top: 30px;
+        background-color: white;
+        width: auto;
+        text-wrap: nowrap;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        padding-left: 60px;
+    }
+
+    .list {
+        float: left;
+        list-style: none;
+        line-height: 30px;
+        text-decoration: none;
+        color: gray;
+        text-wrap: nowrap;
+        background-color: white;
+        font-size: 13px;
+    }
+
+    .ind {
+        margin: 0;
+        padding: 0;
+    }
+
+    .caution {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        text-wrap: nowrap;
+        text-align: left;
+    }
+
+    .bdy {
+        width: 100%;
+    }
+
+    .first, .second, .third {
+        float: none;
+    }
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    position: absolute;
+    text-wrap: nowrap;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: white;
+    font-size: 14px;
+}
+
+.flex-container>a {
+    text-decoration: none;
+    padding: 20px;
+    color: rgb(62, 55, 55);
+}
+
+.notification {
+    margin-top: 13px;
+    width: 30px;
+    position: absolute;
+}
+
+.profile {
+    position: absolute;
+    width: 30px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.user {
+    position: absolute;
+    right: 140px;
+}
+
+.abc {
+    position: absolute;
+    margin-top: -2px;
+    border: none;
+}
+
+.a {
+    margin-left: 35px;
+}
+
+.pair {
+    margin-top: 25px;
+}
+
+.row1::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.row1, .get {
+    margin-left: 4%;
+}
+
+.get {
+    margin-top: 30px;
+}
+
+.small {
+    font-size: 12px;
+    margin-top: -10px;
+}
+
+.inside {
+    color: white;
+    width: 93%;
+    justify-content: center;
+    margin: -95px auto 0 auto;
+}
+
+.column2 {
+    float: left;
+    width: 23%;
+    padding: 5px;
+    text-wrap: nowrap;
+}
+
+.row2 {
+    margin-left: 4%;
+}
+
+.mob {
+    height: 200px;
+    border-radius: 15px;
+    width: 95%;
+}
+
+
+.list {
+    float: left;
+    margin: 50px 0px 0 60px;
+    list-style: none;
+    line-height: 25px;
+    text-decoration: none;
+    color: gray;
+    font-size: 13px;
+    text-wrap: nowrap;
+}
+
+.ind {
+    font-size: 16px;
+    color: black;
+}
+
+
+.cmore {
+    text-decoration: none;
+    color: #00d0ff;
+}
+
+.ico {
+    position: absolute;
+    margin: 6px 0 0 -25px;
+    color: cyan;
+}
+
+
+
+.drm {
+    margin-left: 28px;
+    color: black;
+}
+
+.start {
+    margin-left: 62px;
+    text-wrap: nowrap;
+
+}
+
+.strt {
+    position: absolute;
+    margin-left: 58px;
+    color: grey;
+    margin-top: 15px;
+}
+
+.pln {
+    color: cyan;
+}
+
+.opera {
+    width: 100%;
+    overflow: auto;
+    flex-wrap: nowrap;
+    text-wrap: nowrap;
+}
+
+.sydney {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    object-fit: cover;
+}
+
+.over {
+    margin: 30px 0 0 62px;
+    color: rgb(78, 76, 76);
+
+}
+
+.spn {
+    padding-right: 30px;
+    font-size: 13px;
+    color: rgb(98, 88, 88);
+
+}
+
+#over {
+    text-decoration-line: underline;
+    text-decoration-color: cyan;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 15px;
+}
+
+p>.fa-solid {
+    color: goldenrod;
+}
+
+#locate {
+    color: cyan;
+    margin-left: 65px;
+}
+
+.aa {
+    color: grey;
+    margin-left: -30px;
+    position: absolute;
+}
+
+
+.key, .pair {
+    float: left;
+    height: 900px;
+    background-color: white;
+    text-wrap: nowrap;
+}
+
+
+
+.map {
+    width: 100%;
+    margin-left: -30px;
+    text-wrap: nowrap;
+}
+
+.sect1 {
+    width: 65%;
+    margin-left: 100px;
+    color: rgb(117, 113, 113);
+    font-size: 13px;
+    line-height: 25px;
+}
+
+.sect2 {
+    width: 25%;
+    margin-top: -350px;
+    text-wrap: nowrap;
+}
+
+.sect1, .sect2 {
+    float: left;
+    text-wrap: nowrap;
+}
+
+.material-symbols-outlined {
+    position: absolute;
+    margin-top: -2px;
+    border: none;
+}
+
+.a {
+    margin-left: 35px;
+}
+
+.search {
+    padding: 10px 32px;
+    text-decoration: none;
+    background-color: #0098ba;
+    color: white;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.form {
+    width: 100%;
+    justify-content: center;
+    margin-left: 35px;
+    padding: 10px 0 20px 0;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+.ab {
+    margin: 0 40px 0 50px;
+}
+
+::placeholder {
+    background-color: white;
+    border: none;
+    color: rgb(51, 49, 49);
+}
+
+input[type="text"], input[type="password"], textarea {
+    border: none;
+    outline: none;
+    background-color: white;
+    overflow: auto;
+}
+
+.flt {
+    clear: both;
+    padding-top: 30px;
+    margin-left: 60px;
+    color: black;
+    font-weight: 550;
+    font-size: 22px;
+}
+
+.first, .second, .third {
+    width: 28%;
+    float: left;
+    margin-left: 50px;
+    margin-right: -10px;
+    padding-top: 20px;
+    color: rgb(127, 113, 113);
+    font-size: 13px;
+    text-wrap: nowrap;
+}
+
+.column {
+    line-height: 25px;
+}
+
+.prom {
+    width: 90%;
+    border-radius: 10px;
+}
+
+.count {
+    color: black;
+    font-size: 16px;
+}
+
+.suite {
+    padding: 10px 140px;
+    background-color: cyan;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+
+    text-wrap: nowrap;
+
+
+}
+
+section div>.fa-solid, .fa-thumbs-up {
+    color: #0098ba;
+
+}
+
+.over1 {
+    color: black;
+}
+
+.fa-regular, .fa-solid {
+    margin-right: 5px;
+}
+
+
+.thum {
+    color: grey;
+}
+
+.caution {
+    margin-top: 500px;
+    margin-left: 85px;
+    background-color: rgba(196, 196, 0, 0.146);
+    width: 87%;
+
+    padding: 5px 10px;
+    color: white;
+    text-wrap: stable;
+}
+
+.part1, .part2 {
+    float: left;
+    margin-right: 70px;
+    text-wrap: nowrap;
+}
+
+.span1 {
+    color: grey;
+    background-color: rgba(196, 196, 0, 0.146);
+    font-size: 14px;
+}
+
+.learn {
+    text-decoration: none;
+    color: #00d0ff;
+    background-color: unset
+}
+
+.fa-triangle-exclamation {
+    color: black;
+}
+
+.bdy {
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+.aus {
+    margin-left: 90px;
+    color: rgb(74, 70, 70);
+    font-size: 13px;
+    text-wrap: nowrap;
+}
+
+.head {
+    color: black;
+    margin-left: 60px;
+    text-wrap: nowrap;
+}
+
+.overview {
+    margin-left: 100px;
+    color: black;
+}
+
+.di {
+    color: grey;
+    line-height: 20px;
+    font-size: 13px;
+}
+
+.table {
+    color: grey;
+    font-size: 13px;
+    line-height: 25px;
+    margin-top: -100px;
+}
+
+.area {
+    color: black;
+    margin-top: 150px;
+    margin-left: -0px;
+    text-wrap: nowrap;
+}
